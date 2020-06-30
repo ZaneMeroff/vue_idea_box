@@ -1,15 +1,16 @@
 <template>
   <div id="app">
     <h1>{{ todos[0].title }}</h1>
+    <Todos v-bind:todos='todos'/>
   </div>
 </template>
 
 <script>
-
+import Todos from './components/Todos';
 export default {
   name: 'App',
   components: {
-
+    Todos
   },
   data() {
     return {
