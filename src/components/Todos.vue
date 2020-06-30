@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-for='todo in todos' v-bind:key='todo.id'>
-      <p>{{ todo.title }}</p>
+      <li>{{ todo.title }}</li>
     </div>
   </div>
 
