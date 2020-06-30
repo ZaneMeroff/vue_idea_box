@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>{{ todos[0].title }}</h1>
+    <h1>TO DO LIST 📝</h1>
     <Todos v-bind:todos='todos'/>
   </div>
 </template>
